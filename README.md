@@ -82,25 +82,24 @@ item                    |how many |ref
 ------------------------|---------|------------------------------------
 arduino nano            |1        |aliexpress
 bridge rectifier        |1        |mouser 625-B40C800G-E4
-capa 330uF               1         mouser 667-EEU-FM1C331
-capa 10uF                1         mouser 581-TAP106K025SCS
-voltage regulator 7807TV 1         mouser 511-L7809CV
-R 50 ohm                 1         mouser 71-CPF150R000FEE14
-relay                    1         sparkfun COM-00100
-diode 4004               1         mouser 512-1N4004
-transistor 2n2222        1         mouser 610-2N2222
-R 10k ohm                5         mouser 71-CCF50-10K
-R 1k ohm                 1         mouser 603-CFR-12JR-521K
-diode 4148               1         mouser 512-1N4148
-toggle button            1         sparkfun COM-00102
-push button              1         SPARKUN COM-00097
-led                      1         mouser 941-C4SMFRJSCT0W0BB2
-R 400 ohm                3         mouser 660-MF1/2LCT52R391J
-terminal block  2 pos    8         mouser 845-30.702
-terminal block 3 pos     1         mouser 845-30.703
-headers                  2         mouser 855-M20-7821546
-high speed optocoupler   1         mouser 630-6N137
------------------------- --------- ------------------------------------
+capa 330uF              |1        |mouser 667-EEU-FM1C331
+capa 10uF               |1        |mouser 581-TAP106K025SCS
+voltage regulator 7807TV|1        |mouser 511-L7809CV
+R 50 ohm                |1        |mouser 71-CPF150R000FEE14
+relay                   |1        |sparkfun COM-00100
+diode 4004              |1        |mouser 512-1N4004
+transistor 2n2222       |1        |mouser 610-2N2222
+R 10k ohm               |5        |mouser 71-CCF50-10K
+R 1k ohm                |1        |mouser 603-CFR-12JR-521K
+diode 4148              |1        |mouser 512-1N4148
+toggle button           |1        |sparkfun COM-00102
+push button             |1        |SPARKUN COM-00097
+led                     |1        |mouser 941-C4SMFRJSCT0W0BB2
+R 400 ohm               |3        |mouser 660-MF1/2LCT52R391J
+terminal block  2 pos   |8        |mouser 845-30.702
+terminal block 3 pos    |1        |mouser 845-30.703
+headers                 |2        |mouser 855-M20-7821546
+high speed optocoupler  |1        |mouser 630-6N137
 
 
 ![logical schema](doc/schemaEagle2.png "Eagle physical schema")
