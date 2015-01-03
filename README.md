@@ -109,16 +109,19 @@ Reprogram it
 
 If you are familiar with Arduino programming, you can re-program it to whatever needs you have. That the beauty of it. Here are the arduino sources: [dccduino.ino](arduinoSource/dccduino.ino)
 
-It is based on the dcc decoder library from Minabay: http://www.mynabay.com/arduino/2-uncategorised/14-arduino-dcc-monitor
+It is based on the dcc decoder library from Minabay you will need to install: http://www.mynabay.com/arduino/2-uncategorised/14-arduino-dcc-monitor
 
 
 
 Extend it
 =========
 
-If you want to develop your own dcc decoder, I provide you the eagle source: [arduinoDcc1.2.brd](arduinoDcc1.2.sch) and [arduinoDcc1.2.brd](arduinoDcc1.2.brd)
+If you want to develop your own dcc decoder, I provide you the eagle source: [arduinoDcc1.2.sch](arduinoDcc1.2.sch) and [arduinoDcc1.2.brd](arduinoDcc1.2.brd)
 
 Feel free to adapt it to your needs, but I provide it as is, i.e. I can answer some question but if you decide to change the layout, you are on your own
 
 ![logical schema](doc/schemaEagle.png "Eagle logical schema")
 
+Licence
+=======
+The Arduino code and the Eagle schema are under the GPL v2
