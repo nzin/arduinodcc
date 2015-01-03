@@ -124,4 +124,4 @@ Feel free to adapt it to your needs, but I provide it as is, i.e. I can answer s
 
 Licence
 =======
-The Arduino code and the Eagle schema are under the GPL v2
+The Arduino code and the Eagle schema are under the [GPL v2](gpl-2.0.txt)
