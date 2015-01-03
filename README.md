@@ -79,8 +79,8 @@ To fully assemble it, the full Bill Of Material is:
 
 
 item                     how many  ref
------------------------  --------- ------------------------------------
-arduino nano             1
+------------------------ --------- ------------------------------------
+arduino nano             1         aliexpress
 bridge rectifier         1         mouser 625-B40C800G-E4
 capa 330uF               1         mouser 667-EEU-FM1C331
 capa 10uF                1         mouser 581-TAP106K025SCS
