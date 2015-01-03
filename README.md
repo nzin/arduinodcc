@@ -78,6 +78,7 @@ The PCB gerber files are here: arduino.zip (for the eagle source check below)
 To fully assemble it, the full Bill Of Material is:
 
 
+------------------------ --------- ------------------------------------
 item                     how many  ref
 ------------------------ --------- ------------------------------------
 arduino nano             1         aliexpress
@@ -100,6 +101,7 @@ terminal block  2 pos    8         mouser 845-30.702
 terminal block 3 pos     1         mouser 845-30.703
 headers                  2         mouser 855-M20-7821546
 high speed optocoupler   1         mouser 630-6N137
+------------------------ --------- ------------------------------------
 
 
 ![logical schema](doc/schemaEagle2.png "Eagle physical schema")
