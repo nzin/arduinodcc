@@ -73,7 +73,7 @@ Assemble it
 If you don’t want to assemble, or just want the PCB already fabricated, contact me, and I can provide it for you: nicolas.zin@gmail.com
 
 If you prefer to fully assemble it, you will need to get the PCB, and of course the components.
-The PCB gerber files are here: arduino.zip (for the eagle source check below)
+The PCB gerber files are here: [arduinov1.2.zip](arduinov1.2.zip) (for the eagle source check below)
 
 To fully assemble it, the full Bill Of Material is:
 
