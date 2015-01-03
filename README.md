@@ -78,11 +78,10 @@ The PCB gerber files are here: arduino.zip (for the eagle source check below)
 To fully assemble it, the full Bill Of Material is:
 
 
------------------------- --------- ------------------------------------
-item                     how many  ref
------------------------- --------- ------------------------------------
-arduino nano             1         aliexpress
-bridge rectifier         1         mouser 625-B40C800G-E4
+item                    |how many |ref
+------------------------|---------|------------------------------------
+arduino nano            |1        |aliexpress
+bridge rectifier        |1        |mouser 625-B40C800G-E4
 capa 330uF               1         mouser 667-EEU-FM1C331
 capa 10uF                1         mouser 581-TAP106K025SCS
 voltage regulator 7807TV 1         mouser 511-L7809CV
