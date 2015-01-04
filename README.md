@@ -3,7 +3,7 @@ A versatile Arduino stationary dcc decoder
 
 ![arduino dcc](doc/arduinodcc.JPG "Arduino DCC")
 
-When constructing my dcc based train model, I looked for dcc decoder to pilot light (SMD 0402, or standard led), but had difficulty to program them for custom scenario (blinking, road works style, …). There are also some DIY dcc decoder (opendcc decoder) but didn’t manage to make them working. So I decided to create my own stationary dcc decoder based on Arduino, to be able to reprogram it at wish.
+When constructing my dcc based train model, I looked for dcc decoder to pilot light (SMD 0402, or standard led), but had difficulty to program them for custom scenario (blinking, road works style, …). There are also some DIY dcc decoder (opendcc decoder) but didn’t manage to make them working. So I decided to create my own stationary dcc decoder based on Arduino (nano), to be able to reprogram it at wish.
 
 This decoder is pretty simple, you can
  * assign it a dcc address (via a learning switch button)
