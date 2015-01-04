@@ -53,7 +53,8 @@ You just has to use the push button to cycle between the 3 modes. The little sta
 Connect relay
 -------------
 
-TBD
+Close to the lights there is a block of 3 pins for the relay (if you decide to build it), which are in this order: low ouput, input, high output.
+So the one on the middle is your input (whatever your input is), and the relay will connect it either to the left pin or to the right pin.
 
 Connect to the other IO
 =======================
