@@ -3,7 +3,7 @@ Un decodeur d'accessoire DCC versatile basé sur Arduino
 
 ![arduino dcc](doc/arduinodcc.JPG "Arduino DCC")
 
-Quand j'ai commencé à construire mon réseau à l'échelle N, j'ai regardé pour piloter des lumière (SMD 0402, ou des led standards), mais j'avais soit de la difficulté à les programmer simplement (CV & co), ou je suis tombé sur des décodeurs à fabriquer soi-meme que je n'ai pas réussi à faire fonctionner. Du coup j'ai décidé de construire le mien en partant d'un Arduino nano, qui soit facile à reprogrammer.
+Quand j'ai commencé à construire mon réseau à l'échelle N, j'ai regardé pour piloter des lumières (SMD 0402, ou des led standards), mais j'avais soit de la difficulté à les programmer simplement (CV & co), ou je suis tombé sur des décodeurs à fabriquer soi-meme que je n'ai pas réussi à faire fonctionner. Du coup j'ai décidé de construire le mien en partant d'un Arduino nano, qui soit facile à reprogrammer.
 
 Ce décodeur est assez simple. On peut
  * lui assigner une adresse DCC (via un bouton d'apprentissage)
