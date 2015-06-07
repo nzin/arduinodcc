@@ -74,7 +74,7 @@ Assemble it
 If you don’t want to assemble, or just want the PCB already fabricated, contact me, and I can provide it for you: nicolas.zin@gmail.com
 
 If you prefer to fully assemble it, you will need to get the PCB, and of course the components.
-The PCB gerber files are here: [arduinov1.2.zip](https://github.com/nzin/arduinodcc/arduinov1.2.zip) (for the eagle source check below)
+The PCB gerber files are here: [arduinov1.2.zip](https://github.com/nzin/arduinodcc/blob/master/arduinov1.2.zip) (for the eagle source check below)
 
 To fully assemble it, the full Bill Of Material is:
 
@@ -108,7 +108,7 @@ high speed optocoupler  |1        |mouser 630-6N137
 Reprogram it
 ============
 
-If you are familiar with Arduino programming, you can re-program it to whatever needs you have. That the beauty of it. Here are the arduino sources: [dccduino.ino](https://github.com/nzin/arduinodcc/arduinoSource/dccduino.ino)
+If you are familiar with Arduino programming, you can re-program it to whatever needs you have. That the beauty of it. Here are the arduino sources: [dccduino.ino](https://github.com/nzin/arduinodcc/blob/master/arduinoSource/dccduino.ino)
 
 It is based on the dcc decoder library from Minabay you will need to install: http://www.mynabay.com/arduino/2-uncategorised/14-arduino-dcc-monitor
 
@@ -117,7 +117,7 @@ It is based on the dcc decoder library from Minabay you will need to install: ht
 Extend it
 =========
 
-If you want to develop your own dcc decoder, I provide you the eagle source: [arduinoDcc1.2.sch](https://github.com/nzin/arduinodcc/arduinoDcc1.2.sch) and [arduinoDcc1.2.brd](https://github.com/nzin/arduinodcc/arduinoDcc1.2.brd)
+If you want to develop your own dcc decoder, I provide you the eagle source: [arduinoDcc1.2.sch](https://github.com/nzin/arduinodcc/blob/master/arduinoDcc1.2.sch) and [arduinoDcc1.2.brd](https://github.com/nzin/arduinodcc/blob/master/arduinoDcc1.2.brd)
 
 Feel free to adapt it to your needs, but I provide it as is, i.e. I can answer some question but if you decide to change the layout, you are on your own
 
@@ -125,4 +125,4 @@ Feel free to adapt it to your needs, but I provide it as is, i.e. I can answer s
 
 Licence
 =======
-The Arduino code and the Eagle schema are under the [GPL v2](https://github.com/nzin/arduinodcc/gpl-2.0.txt)
+The Arduino code and the Eagle schema are under the [GPL v2](https://github.com/nzin/arduinodcc/blob/master/gpl-2.0.txt)
