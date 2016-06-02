@@ -103,6 +103,8 @@ terminal block  2 pos   |8        |mouser 845-30.702
 terminal block 3 pos    |1        |mouser 845-30.703
 headers                 |2        |mouser 855-M20-7821546
 high speed optocoupler  |1        |mouser 630-6N137
+R 200 ohm               |1        |mouser 71-CCF50-200
+
 
 
 ![logical schema](doc/schemaEagle2.png "Eagle physical schema")
