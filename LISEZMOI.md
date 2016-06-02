@@ -114,7 +114,7 @@ Le reprogrammer
 
 Si vous etes familier avec la programmation d'un Arduino, vous pouvez le reprogrammer pour faire ce que bon vous semble. Et c'est toute la beauté de la chose! Voici les sources que j'utilise: [dccduino.ino](arduinoSource/dccduino.ino)
 
-C'est basé sur la librairie dc de Minabay, Et donc vous allez devoir installer: http://www.mynabay.com/arduino/2-uncategorised/14-arduino-dcc-monitor
+C'est basé sur la librairie dc de Minabay, Et donc vous allez devoir installer: https://github.com/MynaBay/DCC_Decoder
 
 
 
