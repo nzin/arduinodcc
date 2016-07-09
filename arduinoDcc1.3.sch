@@ -3270,7 +3270,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="B1" library="rectifier" deviceset="RB1A" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH1" value="220 uF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH1" value="330 uF"/>
 <part name="SPARK-0102" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="PTH"/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="3MM"/>
 <part name="R9" library="eagle-ltspice" deviceset="R" device="0204/7" value="200"/>
