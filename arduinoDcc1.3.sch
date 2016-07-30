@@ -869,6 +869,30 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <rectangle x1="2.032" y1="-0.381" x2="3.937" y2="0.381" layer="21"/>
 <rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
 </package>
+<package name="DO41-7.6">
+<description>&lt;b&gt;DO41&lt;/b&gt; 7.6mm x 2mm&lt;p&gt;
+Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
+<wire x1="2.082" y1="-0.92" x2="-2.082" y2="-0.92" width="0.1524" layer="21"/>
+<wire x1="2.082" y1="-0.92" x2="2.082" y2="0.92" width="0.1524" layer="21"/>
+<wire x1="-2.082" y1="0.92" x2="2.082" y2="0.92" width="0.1524" layer="21"/>
+<wire x1="-2.082" y1="0.92" x2="-2.082" y2="-0.92" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0" x2="2.494" y2="0" width="0.85" layer="51"/>
+<wire x1="-3.81" y1="0" x2="-2.519" y2="0" width="0.85" layer="51"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="C" x="-3.81" y="0" drill="1.1" diameter="1.7"/>
+<pad name="A" x="3.81" y="0" drill="1.1" diameter="1.7"/>
+<text x="-2.032" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.032" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-0.95" x2="-1.143" y2="0.92" layer="21"/>
+<rectangle x1="2.082" y1="-0.425" x2="2.717" y2="0.425" layer="21"/>
+<rectangle x1="-2.717" y1="-0.425" x2="-2.082" y2="0.425" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="D">
@@ -883,6 +907,21 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
 <text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+</symbol>
+<symbol name="SCHOTTKY">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -927,6 +966,29 @@ general purpose rectifier, 1 A</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1N581*" prefix="D">
+<description>&lt;b&gt;1.0A SCHOTTKY BARRIER RECTIFIER&lt;/b&gt;&lt;p&gt;
+Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
+<gates>
+<gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO41-7.6">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="7-B"/>
+<technology name="7-T"/>
+<technology name="8-B"/>
+<technology name="8-T"/>
+<technology name="9-B"/>
+<technology name="9-T"/>
 </technologies>
 </device>
 </devices>
@@ -3293,6 +3355,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="R5" library="eagle-ltspice" deviceset="R" device="0207/10" value="400"/>
 <part name="R6" library="eagle-ltspice" deviceset="R" device="0207/10" value="400"/>
 <part name="R7" library="eagle-ltspice" deviceset="R" device="0207/10" value="400"/>
+<part name="D4" library="diode" deviceset="1N581*" device="" technology="7-B"/>
 </parts>
 <sheets>
 <sheet>
@@ -3354,10 +3417,11 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="C2" gate="G$1" x="203.2" y="50.8"/>
 <instance part="IC1" gate="A1" x="218.44" y="53.34" rot="MR0"/>
 <instance part="R8" gate="G$1" x="111.76" y="73.66" rot="R90"/>
-<instance part="R11" gate="G$1" x="198.12" y="101.6" rot="R180"/>
+<instance part="R11" gate="G$1" x="187.96" y="101.6" rot="R180"/>
 <instance part="R5" gate="G$1" x="165.1" y="2.54" rot="R180"/>
 <instance part="R6" gate="G$1" x="162.56" y="-15.24" rot="R180"/>
 <instance part="R7" gate="G$1" x="160.02" y="-27.94" rot="R180"/>
+<instance part="D4" gate="G$1" x="195.58" y="53.34" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -3658,18 +3722,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="147.32" y1="25.4" x2="149.86" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="VIN"/>
-<pinref part="C2" gate="G$1" pin="+"/>
-<wire x1="180.34" y1="48.26" x2="185.42" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="53.34" x2="203.2" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A1" pin="VO"/>
-<wire x1="208.28" y1="53.34" x2="203.2" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="101.6" x2="203.2" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="D11"/>
@@ -3708,7 +3760,26 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="144.78" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="101.6" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="101.6" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="101.6" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="D4" gate="G$1" pin="C"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="101.6" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="53.34" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="VIN"/>
+<wire x1="180.34" y1="53.34" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="IC1" gate="A1" pin="VO"/>
+<pinref part="C2" gate="G$1" pin="+"/>
+<wire x1="208.28" y1="53.34" x2="203.2" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="203.2" y1="53.34" x2="198.12" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -76,7 +76,7 @@ Assember
 Si vous voulez un décodeur tout fait, vous pouvez me contacter et je peux en fournir un: nicolas.zin@gmail.com
 
 Dans le cas contraire, vous pouvez l'assemblez vous meme. vous aurez juste besoin du circuit imprimé, et bien entendu des composants.
-Les fichiers gerber pour le cicruit imprimé sont disponible ici: [arduinov1.2.zip](arduinov1.2.zip) (pour le code source eagle, voir plus bas)
+Les fichiers gerber pour le cicruit imprimé sont disponible ici: [arduinov1.3.zip](arduinov1.3.zip) (pour le code source eagle, voir plus bas)
 
 Pour l'assemblage complet, voici le "Bill Of Material":
 
@@ -87,7 +87,7 @@ arduino nano            |1        |aliexpress
 bridge rectifier        |1        |mouser 625-B40C800G-E4
 capa 330uF              |1        |mouser 667-EEU-FM1C331
 capa 10uF               |1        |mouser 581-TAP106K025SCS
-DC-DC converter (6.5VDC)|1        |mouser 490-V7806-2000 (ou moins cher: voltage regulator mouser 511-L7809CV mais il est recommandé d'acheter un radiateur)
+DC-DC converter (9VDC)  |1        |mouser 490-V7809-1000 (ou moins cher: voltage regulator mouser 511-L7809CV mais il est recommandé d'acheter un radiateur)
 R 50 ohm                |1        |mouser 71-CPF150R000FEE14
 relay                   |1        |sparkfun COM-00100
 diode 4004              |1        |mouser 512-1N4004
@@ -121,7 +121,7 @@ C'est basé sur la librairie dc de Minabay, Et donc vous allez devoir installer:
 L'etendre
 =========
 
-Si vous souhaitez developper votre propre decodeur dcc, je fournis aussi les sources Eagle: [arduinoDcc1.2.sch](arduinoDcc1.2.sch) et [arduinoDcc1.2.brd](arduinoDcc1.2.brd)
+Si vous souhaitez developper votre propre decodeur dcc, je fournis aussi les sources Eagle: [arduinoDcc1.3.sch](arduinoDcc1.3.sch) et [arduinoDcc1.3.brd](arduinoDcc1.3.brd)
 
 Adaptez comme bon vous semble ces sources, pour coller à vos besoins. Mais je les fournis "as is", je peux repondre à quelques questions, mais si vous commencez à changer le layout, vous devez normalement savoir ce que vous faites, je ne pourrais surement pas vous aider à debugger si ca ne marche pas.
 

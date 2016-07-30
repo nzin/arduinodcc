@@ -74,7 +74,7 @@ Assemble it
 If you don’t want to assemble, or just want the PCB already fabricated, contact me, and I can provide it for you: nicolas.zin@gmail.com
 
 If you prefer to fully assemble it, you will need to get the PCB, and of course the components.
-The PCB gerber files are here: https://github.com/nzin/arduinodcc/blob/master/arduinov1.2.zip (for the eagle source check below)
+The PCB gerber files are here: https://github.com/nzin/arduinodcc/blob/master/arduinov1.3.zip (for the eagle source check below)
 
 To fully assemble it, the full Bill Of Material is:
 
@@ -85,7 +85,8 @@ arduino nano            |1        |aliexpress
 bridge rectifier        |1        |mouser 625-B40C800G-E4
 capa 330uF              |1        |mouser 667-EEU-FM1C331
 capa 10uF               |1        |mouser 581-TAP106K025SCS
-DC-DC converter (6.5VDC)|1        |mouser 490-V7806-2000 (or cheaper: voltage regulator mouser 511-L7809CV but buy also a heatsink)
+DC-DC converter (9VDC)  |1        |mouser 490-V7809-1000 (or cheaper: voltage regulator mouser 511-L7809CV but buy also a heatsink!!)
+Schottky Diode          |1        |mouser 833-SR108-TP
 R 50 ohm                |1        |mouser 71-CPF150R000FEE14
 relay                   |1        |sparkfun COM-00100
 diode 4004              |1        |mouser 512-1N4004
@@ -118,7 +119,7 @@ It is based on the dcc decoder library from Minabay you will need to install: ht
 Extend it
 =========
 
-If you want to develop your own dcc decoder, I provide you the eagle source: https://github.com/nzin/arduinodcc/blob/master/arduinoDcc1.2.sch and https://github.com/nzin/arduinodcc/blob/master/arduinoDcc1.2.brd
+If you want to develop your own dcc decoder, I provide you the eagle source: https://github.com/nzin/arduinodcc/blob/master/arduinoDcc1.3.sch and https://github.com/nzin/arduinodcc/blob/master/arduinoDcc1.3.brd
 
 Feel free to adapt it to your needs, but I provide it as is, i.e. I can answer some question but if you decide to change the layout, you are on your own
 

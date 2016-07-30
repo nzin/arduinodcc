@@ -75,7 +75,7 @@ Assemble it
 If you don’t want to assemble, or just want the PCB already fabricated, contact me, and I can provide it for you: nicolas.zin@gmail.com
 
 If you prefer to fully assemble it, you will need to get the PCB, and of course the components.
-The PCB gerber files are here: [arduinov1.2.zip](arduinov1.2.zip) (for the eagle source check below)
+The PCB gerber files are here: [arduinov1.3.zip](arduinov1.3.zip) (for the eagle source check below)
 
 To fully assemble it, the full Bill Of Material is:
 
@@ -118,7 +118,7 @@ It is based on the dcc decoder library from Minabay you will need to install: ht
 Extend it
 =========
 
-If you want to develop your own dcc decoder, I provide you the eagle source: [arduinoDcc1.2.sch](arduinoDcc1.2.sch) and [arduinoDcc1.2.brd](arduinoDcc1.2.brd)
+If you want to develop your own dcc decoder, I provide you the eagle source: [arduinoDcc1.3.sch](arduinoDcc1.3.sch) and [arduinoDcc1.3.brd](arduinoDcc1.3.brd)
 
 Feel free to adapt it to your needs, but I provide it as is, i.e. I can answer some question but if you decide to change the layout, you are on your own
 
