@@ -101,7 +101,7 @@ R 400 ohm               |3        |mouser 660-MF1/2LCT52R391J
 terminal block 2 pos    |8        |mouser 651-1729128
 terminal block 3 pos    |1        |mouser 651-1729131
 headers                 |2        |mouser 855-M20-7821546
-high speed optocoupler  |1        |mouser 630-6N137
+high speed optocoupler  |1        |mouser 630-6N137 (or 630-6N137-000E)
 R 200 ohm               |1        |mouser 71-CCF50-200
 
 
