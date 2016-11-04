@@ -104,6 +104,7 @@ terminal block 3 pos    |1        |mouser 845-30.703 (ou mouser 651-1729131)
 headers                 |2        |mouser 855-M20-7821546
 high speed optocoupler  |1        |mouser 630-6N137 (ou 630-6N137-000E)
 R 200 ohm               |1        |mouser 71-CCF50-200
+diode shottky           |1        |mouser 833-SR108-TP
 
 
 
