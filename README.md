@@ -86,7 +86,6 @@ bridge rectifier        |1        |mouser 625-B40C800G-E4
 capa 330uF              |1        |mouser 667-EEU-FM1C331
 capa 10uF               |1        |mouser 581-TAP106K025SCS
 DC-DC converter (9VDC)  |1        |mouser 490-V7809-1000 (or cheaper: voltage regulator mouser 511-L7809CV but buy also a heatsink!!)
-Schottky Diode          |1        |mouser 833-SR108-TP
 R 50 ohm                |1        |mouser 71-CPF150R000FEE14
 relay                   |1        |sparkfun COM-00100
 diode 4004              |1        |mouser 512-1N4004
