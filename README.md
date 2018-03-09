@@ -82,13 +82,13 @@ To fully assemble it, the full Bill Of Material is:
 item                    |how many |ref
 ------------------------|---------|------------------------------------
 arduino nano            |1        |aliexpress
-bridge rectifier        |1        |mouser 625-B40C800G-E4
+bridge rectifier        |1        |mouser 625-B40C800G-E4 (or 625-B380C800G-E4)
 capa 330uF              |1        |mouser 667-EEU-FM1C331
 capa 10uF               |1        |mouser 581-TAP106K025SCS
 DC-DC converter (9VDC)  |1        |mouser 490-V7809-1000 (or cheaper: voltage regulator mouser 511-L7809CV but buy also a heatsink!!)
 R 50 ohm                |1        |mouser 71-CPF150R000FEE14
 relay                   |1        |sparkfun COM-00100
-diode 4004              |1        |mouser 512-1N4004
+diode 4004              |1        |mouser 512-1N4004 (or 625-1N4004-E3/54)
 transistor 2n2222       |1        |mouser 610-2N2222
 R 10k ohm               |5        |mouser 71-CCF50-10K
 R 1k ohm                |1        |mouser 603-CFR-12JR-521K
@@ -96,12 +96,11 @@ diode 4148              |1        |mouser 512-1N4148
 toggle button           |1        |sparkfun COM-00102 (maybe mouser 633-SS12SDP2)
 push button             |1        |SPARKUN COM-00097 (ou mouser 693-1301.9308)
 led                     |1        |mouser 941-C4SMFRJSCT0W0BB2 (or mouser 630-HLMP-1301)
-R 400 ohm               |3        |mouser 660-MF1/2LCT52R391J
 terminal block 2 pos    |8        |mouser 651-1729128
 terminal block 3 pos    |1        |mouser 651-1729131
 headers                 |2        |mouser 855-M20-7821546
 high speed optocoupler  |1        |mouser 630-6N137-000E
-R 200 ohm               |1        |mouser 71-CCF50-200
+R 200 ohm               |4        |mouser 71-CCF50-200
 shottky diode           |1        |mouser 833-SR108-TP
 
 
