@@ -111,7 +111,7 @@ Reprogram it
 
 If you are familiar with Arduino programming, you can re-program it to whatever needs you have. That the beauty of it. Here are the arduino sources: https://github.com/nzin/arduinodcc/blob/master/arduinoSource/dccduino.ino
 
-It is based on the dcc decoder library from Minabay you will need to install: https://github.com/MynaBay/DCC_Decoder
+It is based on the dcc decoder library from Minabay: https://github.com/MynaBay/DCC_Decoder (included in the arduinoSource/dccduino directory)
 
 
 
